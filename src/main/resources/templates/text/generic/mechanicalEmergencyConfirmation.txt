@@ -1,0 +1,7 @@
+Recebemos a sua solicitação e estamos enviando socorro.
+Por gentilza nos aguarde no local.
+Segue os seus dados:
+Nome: [(${name})]
+CPF: [(${document})]
+Longitude: [(${longitude})]
+Longitude: [(${latitude})]

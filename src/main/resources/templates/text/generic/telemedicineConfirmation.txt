@@ -1,0 +1,4 @@
+Consulta marcada. Segue os dados do agendamento:
+Nome: [(${name})]
+CPF: [(${document})]
+Data da consulta: [(${date})]

@@ -1,0 +1,5 @@
+Voucher gerado com sucesso. Segue os dados:
+Nome: [(${name})]
+CPF: [(${document})]
+Voucher: [(${voucher})]
+Apresente no restaurante

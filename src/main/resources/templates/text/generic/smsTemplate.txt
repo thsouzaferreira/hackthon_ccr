@@ -1,0 +1,5 @@
+[(${companyPresentation})]
+
+[(${alertId})]
+[(${alert.title})]
+[(${link})]

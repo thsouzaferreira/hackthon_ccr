@@ -1,0 +1,3 @@
+Selecine o tipo de socorro que está precisando:
+*40* - Emergência
+*41* - Mecânico

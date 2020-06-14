@@ -1,0 +1,8 @@
+Olá [(${name})], segue o nosso menu de serviços.
+Você pode digitar o número correspondente ou uma palavra-chave.
+*1* - Saúde
+*2* - Alimentação
+*3* - Descanso
+*4* - Socorro
+*5* - Parcerias
+*6* - Informações

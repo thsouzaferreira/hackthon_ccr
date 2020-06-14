@@ -1,0 +1,5 @@
+Nós da CCR preocupamos com a sua sáude. Para isso criamos o programa *Estrada para a saúde*.
+Temos disponíveis duas modalidades de atendimento.
+Selecine o que for mais conveniente:
+*10* - Telemedicina
+*11* - Atendimento presencial

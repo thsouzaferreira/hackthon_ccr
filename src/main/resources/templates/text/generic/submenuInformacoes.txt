@@ -1,0 +1,5 @@
+Selecione uma das seguintes opções para encontrar informações atualizadas:
+*60* - Pedágio
+*61* - Telefones úteis
+*62* - Alertas e boletins
+*63* - Obras
