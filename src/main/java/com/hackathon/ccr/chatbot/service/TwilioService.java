@@ -39,6 +39,20 @@ public class TwilioService {
         }
     }
 
+    public void sendWhatsAppMessage(List<String> message) {
+        message.stream().forEach(m -> {
+            MessageCreator messageCreator = new MessageCreator(new PhoneNumber(phoneNumber),
+                    new PhoneNumber(twilioPhoneNumber), m);
+            try {
+                messageCreator.create(this.client);
+            } catch (TwilioException e) {
+                log.error("An exception occurred trying to send a message to {}, exception: {}", phoneNumber,
+                        e.getMessage());
+                throw e;
+            }
+        });
+    }
+
     public String createResponseMessage(String message) {
         Body body = new Body
                 .Builder(message)

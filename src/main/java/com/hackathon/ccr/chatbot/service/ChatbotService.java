@@ -80,9 +80,9 @@ public class ChatbotService {
         if (StringUtils.isBlank(driver.getAddress())) {
             driver.setAddress(body);
             driverRepository.save(driver);
-            return DriverRegisterResult.builder().driver(driver).isRegisterCompleted(true).message(messageContentBuilder.buildAddress()).build();
+            return DriverRegisterResult.builder().driver(driver).isRegisterCompleted(false).message(messageContentBuilder.buildMainMenu(driver.getName())).build();
         }
-        return DriverRegisterResult.builder().driver(driver).isRegisterCompleted(true).message(messageContentBuilder.buildAddress()).build();
+        return DriverRegisterResult.builder().driver(driver).isRegisterCompleted(true).message(null).build();
     }
 
 

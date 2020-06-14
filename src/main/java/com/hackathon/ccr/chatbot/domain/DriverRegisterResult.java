@@ -12,4 +12,5 @@ public class DriverRegisterResult {
     private boolean isRegisterCompleted;
 
     private String message;
+
 }

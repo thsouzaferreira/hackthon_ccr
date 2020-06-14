@@ -35,6 +35,9 @@ public class Driver {
     @OneToMany(mappedBy = "driver", cascade = CascadeType.ALL)
     private List<Request> requests;
 
+    @Column(name = "register_completed", nullable = false)
+    private boolean registerCompleted;
+
 
 
 
